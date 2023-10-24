@@ -1,0 +1,80 @@
+body {
+    font-family: 'Noto Sans Osmanya', sans-serif;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(46, 61, 78);
+    color:white;
+    display: flex;
+    width: fit-content;
+    block-size: fit-content;
+}
+
+.startCSS {
+    margin-left: 300px;
+}
+nav {
+    display: flex;
+    margin-right: auto;
+}
+
+/* section 1 */
+.section1img {
+    height: 15%;
+    width: 15%;
+    padding-top: 3%;
+}
+.section1txt{
+    /* justify-content: space-between; */
+}
+.section1bottom {
+    padding-bottom: 5%;
+}
+
+/* section 2 */
+.imgSize {
+    /* height: auto; */
+    width: 80%;
+    border-radius: 3px;
+}
+.imgStyle {
+    display: flex;
+}
+
+
+.sectionRose {
+    background-color: rgb(240, 72, 80);
+    color:white;
+}
+
+.sectionGrey {
+    background-color: rgb(46, 61, 78);
+    color: white;
+}
+
+footer {
+    background-color: rgb(28, 37, 46);
+    color:whitesmoke;
+    text-align: center;
+    font-size: x-small;
+}
+
+.coloredPolice {
+    color: rgb(28, 37, 46);
+}
+
+.sendButton {
+    background-color: rgb(240, 72, 80);
+    color: white;
+    border-radius: 2px;
+    margin:20px;
+    padding: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
