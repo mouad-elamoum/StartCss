@@ -1,30 +1,42 @@
-body {
+* {
     font-family: 'Noto Sans Osmanya', sans-serif;
-    margin-bottom: 0%;
-    margin-top: 0%;
-    margin: auto;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
-header {
+/* ----------header---------- */
+.headerStyle {
     background-color: rgb(46, 61, 78);
     color:white;
     display: flex;
-    width: fit-content;
-    block-size: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 8vh;
 }
-
-.startCSS {
-    margin-left: 300px;
-}
-nav {
+.headerTxt {
+    background-color: blue;
+    width: 50vw;
+    height: 8vh;
+    align-items: center;
+    justify-content:space-evenly;
     display: flex;
-    margin-right: auto;
+
 }
 
-/* section 1 */
+.startCss {
+    background-color: aqua;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+}
+
+
+/* ----------section 1---------- */
 .section1img {
-    height: 15%;
     width: 15%;
     padding-top: 3%;
 }
@@ -35,15 +47,59 @@ nav {
     padding-bottom: 5%;
 }
 
-/* section 2 */
-.imgSize {
-    /* height: auto; */
-    width: 80%;
+/* ----------section 2---------- */
+/* .imgSize {
+    width: 50%;
     border-radius: 3px;
 }
 .imgStyle {
-    display: flex;
+    display: inline-flex;
 }
+.container2 {
+    /* flex-direction:row;
+    flex-wrap: wrap; */
+.section2 {
+    background-color: blue;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    /* horizontlzment */
+    justify-content: center;
+    /* verticalement */
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    background-color: pink;
+    height:50vh;
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.container img {
+    width: 15vw;
+}
+
+
+/* ----------section 3---------- */
+.sectionAbout {
+    background-color: chartreuse;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.containerAbout {
+    background-color: coral;
+    height:28vh;
+    width: 45vw;
+    
+}
+
 
 
 .sectionRose {
